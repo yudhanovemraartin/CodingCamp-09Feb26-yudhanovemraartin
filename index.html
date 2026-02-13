@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Yudha</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+</head>
+<body>
+    <header class="flex justify-between items-center p-4">
+        <div class="logo"></div>
+        <nav class="flex">
+            <a class="border rounded p-2 font-bold" href="#home-page">Home</a>
+            <a class="border rounded p-2 font-bold" href="#our-profile-page">Our Profile</a>
+            <a class="border rounded p-2 font-bold" href="#portfolio-page">Portfolio</a>
+            <a class="border rounded p-2 font-bold" href="#message-us-page">Message Us</a>
+        </nav>
+    </header>
+    <hr />
+    <main></main>
+    <main>
+        <section id="home-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold" id="welcome-speech">Welcome to My Website</h2>
+            <p class="mt-2">We are glad to have you here. Explore our service and offerings.</p>
+        </section>
+        <hr />
+        <section id="our-profile-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">About Yudha Company</h2>
+            <p class="mt-2">Yudha Company is dedicated to providing top-notch services in various domains.</p>
+        </section>
+        <hr />
+        <section id="portfolio-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">My Portfolio</h2>
+            <p class="mt-2">Here are some of my recent projects and accomplishments.</p>
+        </section>
+        <hr />
+        <section id="message-us-page" class="min-h-[500px] mx-8">
+                <h2 class="text-xl font-bold">Message Us</h2>
+                <p class="mt-2">Have questions or want to work with us? Send us a message!</p>
+            <form>
+                <div class="mb-4">
+                    <label class="block mb-2" for="name">Name:</label>
+                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required /> 
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="email">Email:</label>
+                    <input class="w-full p-2 border rounded" type="text" id="email" name="email" required />
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="message">Message:</label>
+                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="submit">Send Message</button> 
+            </form>
+        </section>
+        </main>
+
+        <footer>
+            <hr />
+            <p class="text-center p-4" >© 2026 Yudha Company. All rights reserved.</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
